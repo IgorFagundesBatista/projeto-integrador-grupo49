@@ -1,7 +1,8 @@
 # projeto-integrador-grupo49
 Projeto Integrador do Grupo 49 - Senac EAD Análise e Desenvolvimento de Sistemas
+Repositório destinado ao desenvolvimento do Projeto Integrador, focado em análise de dados e estudos de negócio utilizando bases de dados do Kaggle.
 
-## Integrantes do Grupo (em ordem alfabética)
+## 👥 Integrantes do Grupo (em ordem alfabética)
 - Diego Silva Dias
 - Giovanna Soares Rodrigues
 - Igor Fagundes Batista
