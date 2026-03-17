@@ -10,12 +10,13 @@ Repositório destinado ao desenvolvimento do Projeto Integrador, focado em anál
 - Luciana Montemor Hetem e Silva
 - Richard Azambuja Barreto
 
-## Objetivo Geral do Projeto
-- Aprofundamento e conhecimentos da plataforma GitHub, Kaggle, uso de Python e ferramenta Pandas no tratamento de dados;
-- Inclusão de um projeto/arquivos de teste no GitHub - através da plataforma Kaggle - como experimentação no tratamento de dados;
+## 🎯 Objetivo Geral do Projeto
+- Aprofundar conhecimentos nas plataformas GitHub e Kaggle;
+- Praticar a manipulação e tratamento de dados com Python e a biblioteca Pandas;
 - Criação de uma base de dados identificada, com clara descrição do contexto, origem e objetivo de análise;
 - Organização do README no GitHub com a divisão clara de tarefas e cronograma;
-
+- Aplicar boas práticas de organização de repositórios e versionamento.
+  
 ## Objetivo Específico do Projeto - explorar perguntas de negócio com essa base:
 - Identificar quais tipos de calçados (category) têm maior volume de vendas (units_sold) em cada país.
 - Determinar qual marca (brand) é a líder absoluta de vendas em cada região.
@@ -25,20 +26,27 @@ Repositório destinado ao desenvolvimento do Projeto Integrador, focado em anál
 - Impacto de Descontos: O aumento do desconto (discount_percent) realmente resulta em um aumento significativo no volume de unidades vendidas?
 - Canais de Venda: O canal "Online" performa melhor que a "Loja Física" em termos de avaliação do cliente?
 
-## Planejamento (atribuição de tarefas)
+## 📂 Estrutura do Repositório (Scaffolding)
+├── data/
+│   ├── raw/            # Base de dados original (base_original.csv)
+│   └── processed/      # Dados após limpeza e tratamento
+├── notebooks/          # Arquivos Jupyter Notebook (.ipynb) com as análises
+├── app/
+│   └── dashboard.py    # Interface visual do projeto (Streamlit)
+├── docs/               # Documentação extra e imagens dos gráficos
+└── README.md           # Documentação principal do projeto
+
+## 📅 Planejamento (atribuição de tarefas)
 - Tarefa 1 - Criar grupo e convidar equipe para discussão do trabalho - Giovanna Soares Rodrigues
 - Tarefa 2 - Reforço e chamada dos demais membros do grupo - Igor Fagundes Batista
 - Tarefa 3 - Definição e escolha da temática escolhida na plataforma Kaggle - Todos os integrantes
 - Tarefa 4 - Criação do repositório no GitHub/ inserção dos integrantes como colaborador - Igor Fagundes Batista
 - Tarefa 5 - Lançamento da BD e organização dos arquivos e pastas "scaffolding" - Igor Fagundes Batista
-- Tarefa 6 - Descrever brevemente o tipo de análise a ser realizada -  
-- 
-- 
+- Tarefa 6 - Análise das atividades a realizar para entrega da primeira parte do Projeto Integrador - 
+- Tarefa 7 - Checklist e checagem final do projeto grupo 49 - 
 
-## Tecnologias
-- Plataforma Kaggle
-- GitHub
-- Python
-- StreamLit
-
-## Estrutura do Repositório
+## 🛠️ Tecnologias utilizadas
+- Linguagem: Python 3.x
+- Bibliotecas: Pandas, Matplotlib/Seaborn (Visualização)
+- Dashboard: Streamlit
+- Ferramentas: GitHub, Kaggle, VSCode/Colab/JupyterNotebook
