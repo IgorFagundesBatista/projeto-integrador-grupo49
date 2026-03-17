@@ -33,7 +33,7 @@ Repositório destinado ao desenvolvimento do Projeto Integrador, focado em anál
 │   └── raw/            # Base de dados original (CSV)
 ├── notebooks/          # Estudos e rascunhos em Jupyter Notebook
 └── README.md           # Documentação do projeto
-
+```
 ## 📅 Planejamento (atribuição de tarefas)
 - Tarefa 1 - Criar grupo e convidar equipe para discussão do trabalho - Giovanna Soares Rodrigues
 - Tarefa 2 - Reforço e chamada dos demais membros do grupo - Igor Fagundes Batista
