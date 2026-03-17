@@ -7,7 +7,7 @@ Projeto Integrador do Grupo 49 - Senac EAD Análise e Desenvolvimento de Sistema
 - Igor Fagundes Batista
 - Josué Gomas da Silva
 - Luciana Montemor Hetem e Silva
-- Richard Azambuja
+- Richard Azambuja Barreto
 
 ## Objetivo Geral do Projeto
 - Aprofundamento e conhecimentos da plataforma GitHub, Kaggle, uso de Python e ferramenta Pandas no tratamento de dados;
@@ -18,7 +18,7 @@ Projeto Integrador do Grupo 49 - Senac EAD Análise e Desenvolvimento de Sistema
 ## Objetivo Específico do Projeto
 
 ## Planejamento (atribuição de tarefas)
-- Tarefa 1 - Chamar e criar grupo para discussão do trabalho - Giovanna Soares Rodrigues
+- Tarefa 1 - Criar grupo e convidar equipe para discussão do trabalho - Giovanna Soares Rodrigues
 - Tarefa 2 - Reforço e chamada dos demais membros do grupo - Igor Fagundes Batista
 - Tarefa 3 - Definição e escolha da temática escolhida na plataforma Kaggle - Todos os integrantes
 - Tarefa 4 - Criação do repositório no GitHub/ inserção dos integrantes como colaborador - Igor Fagundes Batista
