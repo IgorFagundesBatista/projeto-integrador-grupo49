@@ -22,7 +22,7 @@ Projeto Integrador do Grupo 49 - Senac EAD Análise e Desenvolvimento de Sistema
 - Tarefa 2 - Reforço e chamada dos demais membros do grupo - Igor Fagundes Batista
 - Tarefa 3 - Definição e escolha da temática escolhida na plataforma Kaggle - Todos os integrantes
 - Tarefa 4 - Criação do repositório no GitHub/ inserção dos integrantes como colaborador - Igor Fagundes Batista
-- Tarefa 5 - Lançamento da base de dados e organização no GitHub - 
+- Tarefa 5 - Lançamento da BD e organização dos arquivos e pastas "scaffolding" - Igor Fagundes Batista
 - Tarefa 6 - Descrever brevemente o tipo de análise a ser realizada -  
 - 
 - 
@@ -33,3 +33,4 @@ Projeto Integrador do Grupo 49 - Senac EAD Análise e Desenvolvimento de Sistema
 - Python
 - StreamLit
 
+## Estrutura do Repositório
