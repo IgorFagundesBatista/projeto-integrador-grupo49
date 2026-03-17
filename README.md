@@ -15,7 +15,14 @@ Projeto Integrador do Grupo 49 - Senac EAD Análise e Desenvolvimento de Sistema
 - Criação de uma base de dados identificada, com clara descrição do contexto, origem e objetivo de análise;
 - Organização do README no GitHub com a divisão clara de tarefas e cronograma;
 
-## Objetivo Específico do Projeto
+## Objetivo Específico do Projeto - explorar perguntas de negócio com essa base:
+- Identificar quais tipos de calçados (category) têm maior volume de vendas (units_sold) em cada país.
+- Determinar qual marca (brand) é a líder absoluta de vendas em cada região.
+- Performance de Marca: Qual marca (Nike, Adidas, ASICS, etc.) gera mais receita total?
+- Comportamento do Consumidor: Existe correlação entre o nível de renda (customer_income_level) e o preço final pago?
+- Análise Geográfica: Quais países têm o maior ticket médio?
+- Impacto de Descontos: O aumento do desconto (discount_percent) realmente resulta em um aumento significativo no volume de unidades vendidas?
+- Canais de Venda: O canal "Online" performa melhor que a "Loja Física" em termos de avaliação do cliente?
 
 ## Planejamento (atribuição de tarefas)
 - Tarefa 1 - Criar grupo e convidar equipe para discussão do trabalho - Giovanna Soares Rodrigues
