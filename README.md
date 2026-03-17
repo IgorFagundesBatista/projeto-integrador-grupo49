@@ -27,14 +27,12 @@ Repositório destinado ao desenvolvimento do Projeto Integrador, focado em anál
 - Canais de Venda: O canal "Online" performa melhor que a "Loja Física" em termos de avaliação do cliente?
 
 ## 📂 Estrutura do Repositório (Scaffolding)
+```text
+├── app/                # Aplicação do Dashboard (Streamlit)
 ├── data/
-│   ├── raw/            # Base de dados original (base_original.csv)
-│   └── processed/      # Dados após limpeza e tratamento
-├── notebooks/          # Arquivos Jupyter Notebook (.ipynb) com as análises
-├── app/
-│   └── dashboard.py    # Interface visual do projeto (Streamlit)
-├── docs/               # Documentação extra e imagens dos gráficos
-└── README.md           # Documentação principal do projeto
+│   └── raw/            # Base de dados original (CSV)
+├── notebooks/          # Estudos e rascunhos em Jupyter Notebook
+└── README.md           # Documentação do projeto
 
 ## 📅 Planejamento (atribuição de tarefas)
 - Tarefa 1 - Criar grupo e convidar equipe para discussão do trabalho - Giovanna Soares Rodrigues
