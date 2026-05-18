@@ -9,33 +9,18 @@ st.set_page_config(page_title="Dashboard de Vendas - Grupo 49", layout="wide")
 st.title("📊 Dashboard de Performance de Vendas e Consumo")
 st.markdown("---")
 
-# ==========================================
-# CARREGAMENTO DOS DADOS TRATADOS
-# ==========================================
-# O Streamlit vai ler a base limpa que você gerou no passo 00
 import os
 
 # ==========================================
 # CARREGAMENTO DOS DADOS TRATADOS
 # ==========================================
-# Descobre a pasta exata do script atual
+# Descobre a pasta exata onde o main.py está rodando (app/)
 diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 
-# Junta o caminho da pasta atual com o arquivo que agora está nela!
+# Junta o caminho da pasta atual com o arquivo base_limpa.csv que está nela
 caminho_base = os.path.join(diretorio_atual, 'base_limpa.csv')
 
-df = pd.read_csv(caminho_base)
-
-# ==========================================
-# CARREGAMENTO DOS DADOS TRATADOS
-# ==========================================
-# Esse comando descobre automaticamente a pasta onde o main.py está (app/)
-diretorio_atual = os.path.dirname(os.path.abspath(__file__))
-
-# Subimos um nível para encontrar o arquivo na raiz do projeto
-caminho_base = os.path.join(diretorio_atual, '..', 'base_limpa.csv')
-
-# Lemos o DataFrame com segurança
+# Lê a base de dados de forma definitiva
 df = pd.read_csv(caminho_base)
 
 # ==========================================
