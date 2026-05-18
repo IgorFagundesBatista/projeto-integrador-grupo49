@@ -88,3 +88,19 @@ st.subheader("💎 Comportamento de Compra por Nível de Renda")
 renda_preco = df_filtrado.groupby('customer_income_level')['final_price_usd'].mean().reset_index()
 renda_preco.columns = ['Nível de Renda', 'Preço Médio Pago ($)']
 st.dataframe(renda_preco, use_container_width=True)
+
+# ==========================================
+# 4. CONCLUSÕES E INSIGHTS DE NEGÓCIO
+# ==========================================
+st.markdown("---")
+st.subheader("💡 Conclusões e Insights Práticos")
+
+st.markdown("""
+Com base na análise interativa dos dados de vendas de calçados esportivos, o **Grupo 49** identificou os seguintes pontos estratégicos:
+
+* **Comportamento por Nível de Renda:** Observa-se que o nível de renda do consumidor influencia diretamente o ticket médio pago pelos produtos. Clientes de alta renda (*High Income*) apresentam uma tendência de consumo voltada a produtos de maior valor agregado (linhas premium).
+* **Domínio de Categorias:** A categoria de calçados mais vendida indica onde está o maior volume de giro de estoque, sendo essencial para direcionar as campanhas de marketing e o abastecimento das lojas.
+* **Análise de Faturamento por Marca:** O gráfico de faturamento destaca quais marcas possuem maior força de mercado e margem financeira, permitindo decisões mais seguras sobre parcerias e novos investimentos.
+
+*Dica: Utilize os filtros na barra lateral para segmentar estas conclusões por país ou marca específica!*
+""")
