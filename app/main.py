@@ -18,6 +18,17 @@ import os
 # ==========================================
 # CARREGAMENTO DOS DADOS TRATADOS
 # ==========================================
+# Descobre a pasta exata do script atual
+diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+
+# Junta o caminho da pasta atual com o arquivo que agora está nela!
+caminho_base = os.path.join(diretorio_atual, 'base_limpa.csv')
+
+df = pd.read_csv(caminho_base)
+
+# ==========================================
+# CARREGAMENTO DOS DADOS TRATADOS
+# ==========================================
 # Esse comando descobre automaticamente a pasta onde o main.py está (app/)
 diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 
