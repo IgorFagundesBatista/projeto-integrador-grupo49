@@ -13,7 +13,19 @@ st.markdown("---")
 # CARREGAMENTO DOS DADOS TRATADOS
 # ==========================================
 # O Streamlit vai ler a base limpa que você gerou no passo 00
-df = pd.read_csv('base_limpa.csv')
+import os
+
+# ==========================================
+# CARREGAMENTO DOS DADOS TRATADOS
+# ==========================================
+# Esse comando descobre automaticamente a pasta onde o main.py está (app/)
+diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+
+# Subimos um nível para encontrar o arquivo na raiz do projeto
+caminho_base = os.path.join(diretorio_atual, '..', 'base_limpa.csv')
+
+# Lemos o DataFrame com segurança
+df = pd.read_csv(caminho_base)
 
 # ==========================================
 # BARRA LATERAL - FILTROS DINÂMICOS
