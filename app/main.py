@@ -13,7 +13,7 @@ st.markdown("---")
 # CARREGAMENTO DOS DADOS TRATADOS
 # ==========================================
 # O Streamlit vai ler a base limpa que você gerou no passo 00
-df = pd.read_csv('data/processed/base_limpa.csv')
+df = pd.read_csv('base_limpa.csv')
 
 # ==========================================
 # BARRA LATERAL - FILTROS DINÂMICOS
